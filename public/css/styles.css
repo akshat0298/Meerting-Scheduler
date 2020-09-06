@@ -1,0 +1,117 @@
+body{
+	margin-top: 0px;
+	height: 100vh;
+	width: 100vw;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+.viewer{
+	min-height: 100vh;
+	min-width: 100vw;
+	background-color:#ebeef3;
+	padding-top: 1%;
+}
+.date{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	color: #6f9ce6;
+	padding-left: 40%;
+	width: 25%;
+	height: 30px;
+}
+.date a{
+	text-decoration: none;
+	color: #6f9ce6;
+	padding:0% 8%;
+}
+.none{
+	color: #6f9ce6;
+	background-color: none;
+	border:none;
+}
+.none:hover{
+	cursor: pointer;
+}
+.time{
+	display: flex;
+	width: 90%;
+	justify-content: space-around;
+	align-items: center;
+	margin:2%;
+	padding:1%;
+	box-sizing: border-box;
+	max-height: 60px;
+}
+.pack{
+	padding: 2% 10%;
+	display: flex;
+	flex-wrap:wrap;
+
+
+}
+.element{
+	background-color: #ffffff;
+	box-sizing: border-box;
+	box-shadow: 5px 8px 10px #8298bd; 
+	position:relative;
+ 	display: flex;
+ 	height: 60px;
+ 	width: 80vw;
+ 	justify-content: space-between;
+ 	padding: 0% 3%;
+ 	align-items: center;
+ 	margin: 1% 0%;
+}
+.addmeeting{
+	padding-left: 47.5%;
+}
+.addmeet{
+	align-self: center;
+	color: #ffffff;
+	background-color: #2d6cd6;
+	padding: 3px 20px;
+	border-radius: 4px;
+}
+.addmeet:hover{
+	cursor: pointer;
+}
+.submit{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 8px;
+}
+.add{
+	margin-top: 0;
+	padding-top: 10%;
+	padding-left: 12%
+}
+.form{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 75vh;
+	width: 75vw;
+	background-color: #ffffff;
+}
+.date{
+	display: inline-flex;
+	flex:1;
+}
+.start{
+	display:inline-block;
+}
+.end{
+	display:inline-block;
+}
+.desc{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	height: 100px;
+	margin-left: 5%;
+}
+/* for(i=0;i<=start.length;i++){*/

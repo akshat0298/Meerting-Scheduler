@@ -1,0 +1,33 @@
+	<%- include("header") -%>
+	<div class="viewer">
+		
+		<div class="date">
+			<form method="post" action="/prev">
+				<button class="none"  name="prev" type="submit"><h1><</h1></button>
+			</form>
+			<h1><%= day %></h1>
+			<form method="post" action="/next">
+				<button  class="none" name="next" type="submit"><h1>></h1></button>
+			</form>
+		</div>
+		<div class="pack">
+				<% for(i=0;i<start.length;i++){ %>
+			<div class="element">
+
+				
+				<div class="time"><%= start[i] %> - <%= end[i] %> </div>
+				
+
+				<div class="description"><%= desp[i] %></div>
+			</div>
+				<% } %>
+
+
+		</div>
+		<div class="addmeeting">
+			<form method="post" action="/">
+				<button class="addmeet" type="submit"><b>Add Meeting</b></button>
+			</form>
+		</div>
+	</div>
+	<%- include("footer") -%>
